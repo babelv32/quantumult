@@ -1,33 +1,33 @@
 # 富途牛牛
-DOMAIN-SUFFIX,futuhk.com
-DOMAIN-SUFFIX,futu.link
-DOMAIN-SUFFIX,futunn.com
-DOMAIN-SUFFIX,futuhn.com
-DOMAIN-SUFFIX,futu.com
-DOMAIN-SUFFIX,futu0.com
-DOMAIN-SUFFIX,futu1.com
-DOMAIN-SUFFIX,futu2.com
-DOMAIN-SUFFIX,futu3.com
-DOMAIN-SUFFIX,futu4.com
-DOMAIN-SUFFIX,futu5.com
-DOMAIN-SUFFIX,futu6.com
-DOMAIN-SUFFIX,futu7.com
-DOMAIN-SUFFIX,futu8.com
-DOMAIN-SUFFIX,futu9.com
-DOMAIN-SUFFIX,futuinc.com
-DOMAIN-SUFFIX,futuniuniu.com
-DOMAIN-SUFFIX,futu.cn
-DOMAIN-SUFFIX,futufin.com
-DOMAIN-SUFFIX,futuhk2.com
-DOMAIN-SUFFIX,futuholdings.com
-DOMAIN-SUFFIX,futuesop.com
-DOMAIN-SUFFIX,futubull.cn
-DOMAIN-SUFFIX,futuchain.com
-DOMAIN-SUFFIX,9oju31.launches.appsflyersdk.com
-DOMAIN-SUFFIX,shortconn.im.qcloud.com
-DOMAIN-SUFFIX,cdn.futustatic.com
-DOMAIN-SUFFIX,api.moomoobull.com
-DOMAIN-SUFFIX,sgqt0j.launches.appsflyersdk.com
+host-suffix,futuhk.com
+host-suffix,futu.link
+host-suffix,futunn.com
+host-suffix,futuhn.com
+host-suffix,futu.com
+host-suffix,futu0.com
+host-suffix,futu1.com
+host-suffix,futu2.com
+host-suffix,futu3.com
+host-suffix,futu4.com
+host-suffix,futu5.com
+host-suffix,futu6.com
+host-suffix,futu7.com
+host-suffix,futu8.com
+host-suffix,futu9.com
+host-suffix,futuinc.com
+host-suffix,futuniuniu.com
+host-suffix,futu.cn
+host-suffix,futufin.com
+host-suffix,futuhk2.com
+host-suffix,futuholdings.com
+host-suffix,futuesop.com
+host-suffix,futubull.cn
+host-suffix,futuchain.com
+host-suffix,9oju31.launches.appsflyersdk.com
+host-suffix,shortconn.im.qcloud.com
+host-suffix,cdn.futustatic.com
+host-suffix,api.moomoobull.com
+host-suffix,sgqt0j.launches.appsflyersdk.com
 
 
 IP-CIDR,1.14.242.0/23,no-resolve
@@ -76,3 +76,28 @@ IP-CIDR,43.134.158.106/32,no-resolve
 IP-CIDR,43.153.234.107/32,no-resolve
 IP-CIDR,43.153.249.33/32,no-resolve
 IP-CIDR,43.163.17.229/32,no-resolve
+
+
+
+# > 老虎证券 (Tiger Brokers)
+host-suffix, itiger.com
+host-suffix, itiger.cn
+host-suffix, tigerbrokers.com
+host-suffix, tigerbrokers.com.sg
+host-suffix, tigerbrokers.com.au
+host-suffix, tigerbrokers.nz
+host-suffix, tigersecurities.com
+host-suffix, tigerfintech.com
+host-suffix, tigertech.net
+host-suffix, tigertech.sg
+
+# > 长桥证券 (Longbridge)
+host-suffix, longbridge.cn
+host-suffix, longbridge.hk
+host-suffix, longbridge.sg
+host-suffix, longbridge.global
+host-suffix, longbridgeapp.com
+host-suffix, longbridge.xyz
+host-suffix, lbkr.com
+host-suffix, lbkrs.com
+host-suffix, longbridgetech.com
