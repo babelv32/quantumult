@@ -1,4 +1,13 @@
-# > 富途牛牛
+# =========================================
+# > 富途牛牛 & Moomoo (Futu)
+# =========================================
+
+# 1. 兜底型模糊匹配 (拦截所有包含以下关键词的未知域名，防漏网)
+HOST-KEYWORD,futu,Alpha
+HOST-KEYWORD,moomoo,Alpha
+HOST-KEYWORD,futubull,Alpha
+
+# 2. 核心服务域名 (常规 Web 与 API 请求)
 HOST-SUFFIX,futuhk.com,Alpha
 HOST-SUFFIX,futu.link,Alpha
 HOST-SUFFIX,futunn.com,Alpha
@@ -27,6 +36,7 @@ HOST-SUFFIX,shortconn.im.qcloud.com,Alpha
 HOST-SUFFIX,cdn.futustatic.com,Alpha
 HOST-SUFFIX,api.moomoobull.com,Alpha
 
+# 3. 底层长连接与高防 IP (防止实时行情与交易直连暴露大陆 IP)
 IP-CIDR,1.14.242.0/23,no-resolve,Alpha
 IP-CIDR,14.152.91.0/24,no-resolve,Alpha
 IP-CIDR,38.65.217.0/24,no-resolve,Alpha
@@ -73,7 +83,11 @@ IP-CIDR,43.153.234.107/32,no-resolve,Alpha
 IP-CIDR,43.153.249.33/32,no-resolve,Alpha
 IP-CIDR,43.163.17.229/32,no-resolve,Alpha
 
+# =========================================
 # > 老虎证券 (Tiger Brokers)
+# =========================================
+HOST-KEYWORD,tigerbrokers,Alpha
+HOST-KEYWORD,itiger,Alpha
 HOST-SUFFIX,itiger.com,Alpha
 HOST-SUFFIX,itiger.cn,Alpha
 HOST-SUFFIX,tigerbrokers.com,Alpha
@@ -85,7 +99,10 @@ HOST-SUFFIX,tigerfintech.com,Alpha
 HOST-SUFFIX,tigertech.net,Alpha
 HOST-SUFFIX,tigertech.sg,Alpha
 
+# =========================================
 # > 长桥证券 (Longbridge)
+# =========================================
+HOST-KEYWORD,longbridge,Alpha
 HOST-SUFFIX,longbridge.cn,Alpha
 HOST-SUFFIX,longbridge.hk,Alpha
 HOST-SUFFIX,longbridge.sg,Alpha
