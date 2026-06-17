@@ -38,6 +38,9 @@ HOST-SUFFIX,api.moomoobull.com,Alpha
 
 # 3. 底层长连接与高防 IP (防止实时行情与交易直连暴露大陆 IP)
 IP-CIDR,119.91.245.125,no-resolve,Alpha
+IP-CIDR,119.91.245.213,no-resolve,Alpha
+IP-CIDR,106.55.66.56,no-resolve,Alpha
+
 
 IP-CIDR,119.28.37.0/24,no-resolve,Alpha
 IP-CIDR,43.153.233.0/24,no-resolve,Alpha
