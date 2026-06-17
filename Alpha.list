@@ -37,12 +37,14 @@ HOST-KEYWORD,futu9,Alpha
 HOST-SUFFIX,shortconn.im.qcloud.com,Alpha
 HOST-SUFFIX,myqcloud.com,Alpha
 HOST-SUFFIX,app-analytics-services.com,Alpha
+HOST-SUFFIX,gateway.icloud.com.cn,Alpha
+
 
 # 自己增加
 
 IP-CIDR,106.55.219.0/24,no-resolve,Alpha
 IP-CIDR,115.159.18.0/24,no-resolve,Alpha
-
+IP-CIDR,119.91.246.0/24,no-resolve,Alpha
 
 # 底层长连接与高防 IP (保留原样，确保行情稳定)
 
