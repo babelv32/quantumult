@@ -1,46 +1,42 @@
 # =========================================
 # > 富途牛牛 & Moomoo (Futu)
 # =========================================
-
-# 1. 兜底型模糊匹配 (拦截所有包含以下关键词的未知域名，防漏网)
-HOST-KEYWORD,futu,Alpha
-HOST-KEYWORD,moomoo,Alpha
+# 特定关键字兜底 (移除容易误杀的 futu，保留特定专属词)
 HOST-KEYWORD,futubull,Alpha
+HOST-KEYWORD,moomoobull,Alpha
+HOST-KEYWORD,futuniuniu,Alpha
 
-# 2. 核心服务域名 (常规 Web 与 API 请求)
-HOST-SUFFIX,futuhk.com,Alpha
+# 核心服务域名 (后缀匹配，精确覆盖)
+HOST-SUFFIX,futu.com,Alpha
+HOST-SUFFIX,futu.cn,Alpha
 HOST-SUFFIX,futu.link,Alpha
+HOST-SUFFIX,futuhk.com,Alpha
+HOST-SUFFIX,futuhk2.com,Alpha
 HOST-SUFFIX,futunn.com,Alpha
 HOST-SUFFIX,futuhn.com,Alpha
-HOST-SUFFIX,futu.com,Alpha
-HOST-SUFFIX,futu0.com,Alpha
-HOST-SUFFIX,futu1.com,Alpha
-HOST-SUFFIX,futu2.com,Alpha
-HOST-SUFFIX,futu3.com,Alpha
-HOST-SUFFIX,futu4.com,Alpha
-HOST-SUFFIX,futu5.com,Alpha
-HOST-SUFFIX,futu6.com,Alpha
-HOST-SUFFIX,futu7.com,Alpha
-HOST-SUFFIX,futu8.com,Alpha
-HOST-SUFFIX,futu9.com,Alpha
 HOST-SUFFIX,futuinc.com,Alpha
-HOST-SUFFIX,futuniuniu.com,Alpha
-HOST-SUFFIX,futu.cn,Alpha
 HOST-SUFFIX,futufin.com,Alpha
-HOST-SUFFIX,futuhk2.com,Alpha
 HOST-SUFFIX,futuholdings.com,Alpha
 HOST-SUFFIX,futuesop.com,Alpha
-HOST-SUFFIX,futubull.cn,Alpha
 HOST-SUFFIX,futuchain.com,Alpha
+HOST-SUFFIX,futustatic.com,Alpha
+HOST-SUFFIX,moomoo.com,Alpha
+# 匹配 futu0.com 到 futu9.com 等所有单数字子域名 (Quantumult X 支持正则，但为了兼容性保留 Keyword 或特定匹配)
+HOST-KEYWORD,futu0,Alpha
+HOST-KEYWORD,futu1,Alpha
+HOST-KEYWORD,futu2,Alpha
+HOST-KEYWORD,futu3,Alpha
+HOST-KEYWORD,futu4,Alpha
+HOST-KEYWORD,futu5,Alpha
+HOST-KEYWORD,futu6,Alpha
+HOST-KEYWORD,futu7,Alpha
+HOST-KEYWORD,futu8,Alpha
+HOST-KEYWORD,futu9,Alpha
+
+# 腾讯云底层相关 (保留原样)
 HOST-SUFFIX,shortconn.im.qcloud.com,Alpha
-HOST-SUFFIX,cdn.futustatic.com,Alpha
-HOST-SUFFIX,api.moomoobull.com,Alpha
 
-# 3. 底层长连接与高防 IP (防止实时行情与交易直连暴露大陆 IP)
-IP-CIDR,119.91.245.125,no-resolve,Alpha
-IP-CIDR,119.91.245.213,no-resolve,Alpha
-IP-CIDR,106.55.66.56,no-resolve,Alpha
-
+# 底层长连接与高防 IP (保留原样，确保行情稳定)
 
 IP-CIDR,119.28.37.0/24,no-resolve,Alpha
 IP-CIDR,43.153.233.0/24,no-resolve,Alpha
@@ -106,12 +102,10 @@ IP-CIDR,43.132.106.8/32,no-resolve,Alpha
 IP-CIDR,43.132.138.67/32,no-resolve,Alpha
 IP-CIDR,1.15.158.0/24,no-resolve,Alpha
 
-
 # =========================================
 # > 老虎证券 (Tiger Brokers)
 # =========================================
-HOST-KEYWORD,tigerbrokers,Alpha
-HOST-KEYWORD,itiger,Alpha
+# 移除宽泛的 tigerbrokers，改为精确匹配，防止误杀其他包含 tiger 的域名
 HOST-SUFFIX,itiger.com,Alpha
 HOST-SUFFIX,itiger.cn,Alpha
 HOST-SUFFIX,tigerbrokers.com,Alpha
@@ -127,12 +121,5 @@ HOST-SUFFIX,tigertech.sg,Alpha
 # > 长桥证券 (Longbridge)
 # =========================================
 HOST-KEYWORD,longbridge,Alpha
-HOST-SUFFIX,longbridge.cn,Alpha
-HOST-SUFFIX,longbridge.hk,Alpha
-HOST-SUFFIX,longbridge.sg,Alpha
-HOST-SUFFIX,longbridge.global,Alpha
-HOST-SUFFIX,longbridgeapp.com,Alpha
-HOST-SUFFIX,longbridge.xyz,Alpha
 HOST-SUFFIX,lbkr.com,Alpha
 HOST-SUFFIX,lbkrs.com,Alpha
-HOST-SUFFIX,longbridgetech.com,Alpha
