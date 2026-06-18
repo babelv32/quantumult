@@ -1,27 +1,4 @@
 # =========================================
-# > 老虎证券 (Tiger Brokers)
-# =========================================
-# 移除宽泛的 tigerbrokers，改为精确匹配，防止误杀其他包含 tiger 的域名
-HOST-SUFFIX,itiger.com,Alpha
-HOST-SUFFIX,itiger.cn,Alpha
-HOST-SUFFIX,tigerbrokers.com,Alpha
-HOST-SUFFIX,tigerbrokers.com.sg,Alpha
-HOST-SUFFIX,tigerbrokers.com.au,Alpha
-HOST-SUFFIX,tigerbrokers.nz,Alpha
-HOST-SUFFIX,tigersecurities.com,Alpha
-HOST-SUFFIX,tigerfintech.com,Alpha
-HOST-SUFFIX,tigertech.net,Alpha
-HOST-SUFFIX,tigertech.sg,Alpha
-
-# =========================================
-# > 长桥证券 (Longbridge)
-# =========================================
-HOST-KEYWORD,longbridge,Alpha
-HOST-SUFFIX,lbkr.com,Alpha
-HOST-SUFFIX,lbkrs.com,Alpha
-
-
-# =========================================
 # > 富途牛牛 & Moomoo (Futu)
 # =========================================
 
@@ -40,17 +17,6 @@ HOST-SUFFIX,futuesop.com,Alpha
 HOST-SUFFIX,futuchain.com,Alpha
 HOST-SUFFIX,futustatic.com,Alpha
 HOST-SUFFIX,moomoo.com,Alpha
-# 匹配 futu0.com 到 futu9.com 等所有单数字子域名 (Quantumult X 支持正则，但为了兼容性保留 Keyword 或特定匹配)
-HOST-KEYWORD,futu0,Alpha
-HOST-KEYWORD,futu1,Alpha
-HOST-KEYWORD,futu2,Alpha
-HOST-KEYWORD,futu3,Alpha
-HOST-KEYWORD,futu4,Alpha
-HOST-KEYWORD,futu5,Alpha
-HOST-KEYWORD,futu6,Alpha
-HOST-KEYWORD,futu7,Alpha
-HOST-KEYWORD,futu8,Alpha
-HOST-KEYWORD,futu9,Alpha
 
 # 自己增加
 
@@ -148,4 +114,40 @@ IP-CIDR,221.229.52.0/24,no-resolve
 HOST-KEYWORD,futubull,Alpha
 HOST-KEYWORD,moomoobull,Alpha
 HOST-KEYWORD,futuniuniu,Alpha
+
+# =========================================
+# 匹配 futu0.com 到 futu9.com 等所有单数字子域名 (Quantumult X 支持正则，但为了兼容性保留 Keyword 或特定匹配)
+HOST-KEYWORD,futu0,Alpha
+HOST-KEYWORD,futu1,Alpha
+HOST-KEYWORD,futu2,Alpha
+HOST-KEYWORD,futu3,Alpha
+HOST-KEYWORD,futu4,Alpha
+HOST-KEYWORD,futu5,Alpha
+HOST-KEYWORD,futu6,Alpha
+HOST-KEYWORD,futu7,Alpha
+HOST-KEYWORD,futu8,Alpha
+HOST-KEYWORD,futu9,Alpha
+
+
+# =========================================
+# > 老虎证券 (Tiger Brokers)
+# =========================================
+# 移除宽泛的 tigerbrokers，改为精确匹配，防止误杀其他包含 tiger 的域名
+HOST-SUFFIX,itiger.com,Alpha
+HOST-SUFFIX,itiger.cn,Alpha
+HOST-SUFFIX,tigerbrokers.com,Alpha
+HOST-SUFFIX,tigerbrokers.com.sg,Alpha
+HOST-SUFFIX,tigerbrokers.com.au,Alpha
+HOST-SUFFIX,tigerbrokers.nz,Alpha
+HOST-SUFFIX,tigersecurities.com,Alpha
+HOST-SUFFIX,tigerfintech.com,Alpha
+HOST-SUFFIX,tigertech.net,Alpha
+HOST-SUFFIX,tigertech.sg,Alpha
+
+# =========================================
+# > 长桥证券 (Longbridge)
+# =========================================
+HOST-KEYWORD,longbridge,Alpha
+HOST-SUFFIX,lbkr.com,Alpha
+HOST-SUFFIX,lbkrs.com,Alpha
 
