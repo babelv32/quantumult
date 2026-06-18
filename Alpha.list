@@ -1,10 +1,6 @@
 # =========================================
 # > 富途牛牛 & Moomoo (Futu)
 # =========================================
-# 特定关键字兜底 (移除容易误杀的 futu，保留特定专属词)
-HOST-KEYWORD,futubull,Alpha
-HOST-KEYWORD,moomoobull,Alpha
-HOST-KEYWORD,futuniuniu,Alpha
 
 # 核心服务域名 (后缀匹配，精确覆盖)
 HOST-SUFFIX,futu.com,Alpha
@@ -33,12 +29,15 @@ HOST-KEYWORD,futu7,Alpha
 HOST-KEYWORD,futu8,Alpha
 HOST-KEYWORD,futu9,Alpha
 
-# 腾讯云底层相关 (保留原样)
-HOST-SUFFIX,shortconn.im.qcloud.com,Alpha
-HOST-SUFFIX,myqcloud.com,Alpha
-HOST-SUFFIX,gateway.icloud.com.cn,Alpha
 
-HOST-SUFFIX,my-imcloud.com,Alpha
+
+
+# 特定关键字兜底 (移除容易误杀的 futu，保留特定专属词)
+HOST-KEYWORD,futubull,Alpha
+HOST-KEYWORD,moomoobull,Alpha
+HOST-KEYWORD,futuniuniu,Alpha
+
+
 
 
 # 自己增加
