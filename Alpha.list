@@ -36,7 +36,6 @@ HOST-KEYWORD,futu9,Alpha
 # 腾讯云底层相关 (保留原样)
 HOST-SUFFIX,shortconn.im.qcloud.com,Alpha
 HOST-SUFFIX,myqcloud.com,Alpha
-HOST-SUFFIX,app-analytics-services.com,Alpha
 HOST-SUFFIX,gateway.icloud.com.cn,Alpha
 
 
@@ -84,6 +83,7 @@ IP-CIDR,106.55.219.0/24,no-resolve
 IP-CIDR,111.230.119.0/24,no-resolve
 IP-CIDR,111.230.214.0/24,no-resolve
 IP-CIDR,115.159.18.0/24,no-resolve
+IP-CIDR,118.89.98.0/24,no-resolve
 IP-CIDR,119.28.37.0/24,no-resolve
 IP-CIDR,119.28.141.0/24,no-resolve
 IP-CIDR,119.28.183.0/24,no-resolve
