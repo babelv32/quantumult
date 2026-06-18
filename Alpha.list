@@ -1,4 +1,27 @@
 # =========================================
+# > 老虎证券 (Tiger Brokers)
+# =========================================
+# 移除宽泛的 tigerbrokers，改为精确匹配，防止误杀其他包含 tiger 的域名
+HOST-SUFFIX,itiger.com,Alpha
+HOST-SUFFIX,itiger.cn,Alpha
+HOST-SUFFIX,tigerbrokers.com,Alpha
+HOST-SUFFIX,tigerbrokers.com.sg,Alpha
+HOST-SUFFIX,tigerbrokers.com.au,Alpha
+HOST-SUFFIX,tigerbrokers.nz,Alpha
+HOST-SUFFIX,tigersecurities.com,Alpha
+HOST-SUFFIX,tigerfintech.com,Alpha
+HOST-SUFFIX,tigertech.net,Alpha
+HOST-SUFFIX,tigertech.sg,Alpha
+
+# =========================================
+# > 长桥证券 (Longbridge)
+# =========================================
+HOST-KEYWORD,longbridge,Alpha
+HOST-SUFFIX,lbkr.com,Alpha
+HOST-SUFFIX,lbkrs.com,Alpha
+
+
+# =========================================
 # > 富途牛牛 & Moomoo (Futu)
 # =========================================
 
@@ -32,17 +55,15 @@ HOST-KEYWORD,futu9,Alpha
 
 
 
-# 特定关键字兜底 (移除容易误杀的 futu，保留特定专属词)
-HOST-KEYWORD,futubull,Alpha
-HOST-KEYWORD,moomoobull,Alpha
-HOST-KEYWORD,futuniuniu,Alpha
-
-
 
 
 # 自己增加
 
+
+# =========================================
 IP-ASN, 132203, Alpha
+# =========================================
+
 
 IP-CIDR,1.14.242.0/23,no-resolve
 IP-CIDR,1.15.158.0/24,no-resolve
@@ -149,24 +170,9 @@ IP-CIDR,221.229.44.0/24,no-resolve
 IP-CIDR,221.229.52.0/24,no-resolve
 
 
-# =========================================
-# > 老虎证券 (Tiger Brokers)
-# =========================================
-# 移除宽泛的 tigerbrokers，改为精确匹配，防止误杀其他包含 tiger 的域名
-HOST-SUFFIX,itiger.com,Alpha
-HOST-SUFFIX,itiger.cn,Alpha
-HOST-SUFFIX,tigerbrokers.com,Alpha
-HOST-SUFFIX,tigerbrokers.com.sg,Alpha
-HOST-SUFFIX,tigerbrokers.com.au,Alpha
-HOST-SUFFIX,tigerbrokers.nz,Alpha
-HOST-SUFFIX,tigersecurities.com,Alpha
-HOST-SUFFIX,tigerfintech.com,Alpha
-HOST-SUFFIX,tigertech.net,Alpha
-HOST-SUFFIX,tigertech.sg,Alpha
+# ===========================================================================
+# 特定关键字兜底 (移除容易误杀的 futu，保留特定专属词)
+HOST-KEYWORD,futubull,Alpha
+HOST-KEYWORD,moomoobull,Alpha
+HOST-KEYWORD,futuniuniu,Alpha
 
-# =========================================
-# > 长桥证券 (Longbridge)
-# =========================================
-HOST-KEYWORD,longbridge,Alpha
-HOST-SUFFIX,lbkr.com,Alpha
-HOST-SUFFIX,lbkrs.com,Alpha
