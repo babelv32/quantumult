@@ -95,6 +95,9 @@ IP-CIDR,119.28.141.0/24,no-resolve
 IP-CIDR,119.28.183.0/24,no-resolve
 IP-CIDR,119.28.201.0/24,no-resolve
 IP-CIDR,119.28.218.0/23,no-resolve
+
+IP-CIDR,119.29.43.0/23,no-resolve
+
 IP-CIDR,119.29.48.0/23,no-resolve
 IP-CIDR,119.91.244.0/23,no-resolve
 IP-CIDR,119.91.243.0/24,no-resolve
