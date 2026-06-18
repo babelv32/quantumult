@@ -43,6 +43,8 @@ HOST-SUFFIX,my-imcloud.com,Alpha
 
 # 自己增加
 
+IP-ASN, 132203, Alpha
+
 IP-CIDR,1.14.242.0/23,no-resolve
 IP-CIDR,1.15.158.0/24,no-resolve
 IP-CIDR,8.218.30.161/32,no-resolve
