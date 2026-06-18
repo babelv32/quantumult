@@ -52,7 +52,9 @@ IP-CIDR,34.226.76.162/32,no-resolve
 IP-CIDR,38.65.217.0/24,no-resolve
 IP-CIDR,42.193.128.0/24,no-resolve
 IP-CIDR,42.194.152.0/24,no-resolve
+IP-CIDR,43.129.151.0/24,no-resolve
 IP-CIDR,43.130.30.0/24,no-resolve
+
 IP-CIDR,43.130.170.0/24,no-resolve
 IP-CIDR,43.132.106.0/24,no-resolve
 IP-CIDR,43.132.107.0/24,no-resolve
