@@ -135,7 +135,9 @@ HOST-KEYWORD,futu9,Alpha
 # 移除宽泛的 tigerbrokers，改为精确匹配，防止误杀其他包含 tiger 的域名
 HOST-SUFFIX,itiger.com,Alpha
 HOST-SUFFIX,itiger.cn,Alpha
-
+HOST-SUFFIX,itigergrowtha.com,Alpha
+HOST-SUFFIX,itigergrowth.com,Alpha
+HOST-SUFFIX,itigerup.com,Alpha
 
 HOST-SUFFIX,laohu8.com,Alpha
 HOST-SUFFIX,skytigris.cn,Alpha
@@ -169,7 +171,6 @@ HOST-KEYWORD,itigerup,Alpha
 # =========================================
 
 HOST-SUFFIX,lbkr.com,Alpha
-HOST-SUFFIX,lbkrs.com,Alpha
 HOST-SUFFIX,lbkrs.com,Alpha
 HOST-SUFFIX,wbrks.com,Alpha
 
