@@ -135,6 +135,10 @@ HOST-KEYWORD,futu9,Alpha
 # 移除宽泛的 tigerbrokers，改为精确匹配，防止误杀其他包含 tiger 的域名
 HOST-SUFFIX,itiger.com,Alpha
 HOST-SUFFIX,itiger.cn,Alpha
+
+
+HOST-SUFFIX,laohu8.com,Alpha
+HOST-SUFFIX,skytigris.cn,Alpha
 HOST-SUFFIX,tigerbrokers.com,Alpha
 HOST-SUFFIX,tigerbrokers.com.sg,Alpha
 HOST-SUFFIX,tigerbrokers.com.au,Alpha
@@ -143,11 +147,42 @@ HOST-SUFFIX,tigersecurities.com,Alpha
 HOST-SUFFIX,tigerfintech.com,Alpha
 HOST-SUFFIX,tigertech.net,Alpha
 HOST-SUFFIX,tigertech.sg,Alpha
+HOST-SUFFIX,itiger.com,Alpha
+HOST-SUFFIX,itigerup.com,Alpha
+HOST-SUFFIX,laohu8.com,Alpha
+HOST-SUFFIX,tigerbbs.cn,Alpha
+HOST-SUFFIX,tigerbbs.com,Alpha
+HOST-SUFFIX,tigerfintech.com,Alpha
+HOST-SUFFIX,tradeup.com,Alpha
+HOST-SUFFIX,xiaohu8.com,Alpha
+HOST-SUFFIX,zhijianfengyi.cn,Alpha
+HOST-SUFFIX,zhijianfengyi.com,Alpha
+
+HOST-KEYWORD,skytigris,Alpha
+HOST-KEYWORD,laohu,Alpha
+HOST-KEYWORD,tigrwd,Alpha
+HOST-KEYWORD,tradeup,Alpha
+HOST-KEYWORD,itigerup,Alpha
 
 # =========================================
 # > 长桥证券 (Longbridge)
 # =========================================
-HOST-KEYWORD,longbridge,Alpha
+
 HOST-SUFFIX,lbkr.com,Alpha
 HOST-SUFFIX,lbkrs.com,Alpha
+HOST-SUFFIX,lbkrs.com,Alpha
+HOST-SUFFIX,wbrks.com,Alpha
 
+HOST-SUFFIX,lbctrl.com,Alpha
+
+HOST-SUFFIX,longportapp.cn,Alpha
+HOST-SUFFIX,longportapp.com,Alpha
+HOST-SUFFIX,longbridgeapp.com,Alpha
+HOST-SUFFIX,longbridge.hk,Alpha
+HOST-SUFFIX,longbridgehk.com,Alpha
+HOST-SUFFIX,longbridge.com,Alpha
+HOST-SUFFIX,longbridge.global,Alpha
+
+
+HOST-KEYWORD,longbridge,Alpha
+HOST-KEYWORD,lbkrs,Alpha
